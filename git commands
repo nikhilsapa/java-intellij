@@ -1,6 +1,4 @@
 create a new repository on the command line
-
-
 echo "# java-intellij" >> README.md
 git init
 git add README.md
@@ -16,3 +14,20 @@ push an existing repository from the command line
 git remote add origin https://github.com/nikhilsapa/java-intellij.git
 git branch -M master
 git push -u origin master
+
+
+
+first time git and github setup
+*******************************
+git init
+git commit -m "commit message"
+git branch -M master
+git remote add origin https://github.com/nikhilsapa/java-intellij.git
+git push -u origin main
+
+next time onwards
+*****************
+git pull
+git add .
+git commit -m "any message"
+git push
